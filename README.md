@@ -21,6 +21,9 @@ yolov12
 ultralytics
 wandb
 
+Model Weights (best.pt)
+The file best.pt contains the trained weights of the YOLOv12m model specifically trained for this project. It stores the learned parameters after training on the petri dish bacteria colony images, enabling the model to detect and classify E. coli and K. pneumoniae colonies accurately.You can use this file to run inference directly without retraining the model.
+
 To train the model:
 python TrainModel.py
 
